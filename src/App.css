@@ -1,0 +1,76 @@
+button {
+  display: inline-block;
+  width: 150px;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  background: #3399FF;
+  outline: none;
+  border: 0;
+  border-bottom-width: 6px;
+  border-bottom-style: solid;
+  border-bottom-color: #3366CC;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:not(.disabled):hover {
+  margin-top: 13px;
+  border-bottom-width: 3px; 
+}
+
+button.disabled {
+  background: #ccc;
+  border-color: #aaa;
+  cursor: default;
+}
+
+section {
+  position: relative;
+  width: 95%;
+  max-width: 370px;
+  left: -50px;
+  margin: 0 auto;
+}
+
+.progress {
+  position: relative;
+}
+
+.progress .bar-container {
+  position: relative;
+  width: 350px;
+  height: 30px;
+  margin-bottom: 10px;
+  background: #B9EDF8;
+}
+
+.progress .bar-container * {
+  position: absolute;
+}
+
+.progress .bar-container .bar {
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #39BAE8;
+}
+
+.progress .bar-container span {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.progress .bar-container .id {
+  left: 10px;
+}
+
+.progress .bar-container .percent {
+  right: 10px;
+}
+
+.progress .bar-container .status {
+  left: calc(100% + 10px);
+}
