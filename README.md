@@ -1,3 +1,4 @@
-# Petal Javascript Exercise - Solution
+# Connection Progress Simulator
 
-I was running out of time, but I wanted to pull my `.buttons`, `.collections`, and `.progress` `<section>`s out of `App.js` so it wasn't a god-component. I'd love to make this change and refactor with your guidance.
+__This was done as a coding exercise for an interview. The simulation base code is in `src/connectionrunner.js`__
+
