@@ -1,6 +1,6 @@
 # Connection Progress Simulator
 
-_This was done as a coding exercise for an interview. The simulation base code is in `src/connectionrunner.js`_
+_This was done as a coding exercise for an interview. The interviewer provided the scaffolding via `create-react-app`. The simulation base code is in `src/connectionrunner.js`_
 
 **Demo**: http://projects.angiesiudevworks.com/progress_simulator/
 
